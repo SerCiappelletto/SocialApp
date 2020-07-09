@@ -1,0 +1,15 @@
+<% errors.forEach(function(message){ %>
+
+    <div class="alert alert-danger text-center"><%= message %></div>
+
+<% }) %>
+
+<% success.forEach(function(message){ %>
+
+    <div class="alert alert-success text-center"><%= message %></div>
+
+<% }) %>
+
+<!-- need to fix the fact that error 
+messages do not get displayed when you 
+try to follow yourself or other similar errors -->
